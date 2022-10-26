@@ -10,3 +10,6 @@
 [submodule "libs/vstgui"]
 	path = libs/vstgui
 	url = https://github.com/steinbergmedia/vstgui.git
+[submodule "libs/clap-wrapper"]
+	path = libs/clap-wrapper
+	url = https://github.com/defiantnerd/clap-wrapper.git

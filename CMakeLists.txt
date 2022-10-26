@@ -27,6 +27,10 @@ add_subdirectory(libs/clap-helpers EXCLUDE_FROM_ALL)
 add_subdirectory(libs/readerwriterqueue EXCLUDE_FROM_ALL)
 add_subdirectory(libs/vstgui EXCLUDE_FROM_ALL)
 
+#adding VST3 wrapper
+set(CLAP_WRAPPER_OUTPUT_NAME ${PROJECT_NAME})
+add_subdirectory(libs/clap-wrapper)
+
 add_library(${PROJECT_NAME} MODULE
         src/clap-saw-demo.cpp
         src/clap-saw-demo-editor.cpp
